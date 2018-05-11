@@ -1,0 +1,119 @@
+html,body, #root { height: 100%; margin: 0px; padding: 0px; }
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+
+
+body {
+  font-family: Roboto;
+  background-color: #E5E5E5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.App {
+  
+  height: 100%;
+  display: block;
+  margin: 5px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.App-header {
+  text-align: left;
+  background-color: #87CEFA;
+  padding: 10px;
+  padding-left: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Drawing {
+   height: 100%;
+}
+
+.Drawing-title {
+   font-size: 33px;
+   padding: 10px;
+   background-color: #444;
+   color: #fff;
+   font-weight: 100;
+}
+
+.Form {
+
+  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.Form-drawingInput {
+  border: 1px solid #ccc;
+  border-right: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 20px;
+}
+
+.Form-button {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background-color: #00BFFF;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.SignupList {
+  background-color: #fff;
+  padding-left: 0px;
+}
+
+
+.SignupList-item {
+  text-align: center;
+  list-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: solid 1px #eee;
+  cursor: pointer;
+}
+
+
+.SignupList-item:last-child {
+  border-bottom: none;
+}
+
+.Connection-error {
+  background-color: red;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.Connection-port {
+  background-color:#fff;
+  padding: 10px;
+  font-size: 20px;
+}
